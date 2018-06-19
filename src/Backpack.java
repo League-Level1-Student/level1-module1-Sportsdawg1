@@ -19,6 +19,10 @@ public class Backpack
 		this.putInBackpack(ruler);
 		this.putInBackpack(textbook);
 		
+		pencil.write("hi");
+		textbook.read();
+		ruler.measure();
+		
 		goToSchool();
 	}
 
